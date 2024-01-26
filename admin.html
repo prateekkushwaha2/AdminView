@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <style>
+       .car-showroom {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+} 
+    </style>
+        <h1 style="text-align: center;">Admin Panel</h1>
+    <div class="car-showroom">
+        <form id="myForm1">
+        <div>
+          <label for="inputField" id="myForm1-data"></label>
+          <input type="text" id="inputField1" name="inputField1">
+        </div>
+        
+        <div>
+          <label for="inputField_1" id="myForm1-data_1">Description1_1</label>
+          <input type="text" id="inputField1_1" name="inputField1_1">
+          
+        </div>
+        <button type="button" onclick="updateValue1()">Update</button>
+        </form>
+    
+    
+        <form id="myForm2">
+         <div>
+           <label for="inputField" id="myForm2-data"></label>
+           <input type="text" id="inputField2" name="inputField2">
+           
+        </div>
+
+        <div>
+           <label for="inputField" id="myForm2-data_1">Description2_1</label>
+           <input type="text" id="inputField2_1" name="inputField2_1">
+           
+        </div>
+        <button type="button" onclick="updateValue2()">Update</button>
+        </form>
+   
+    
+        <form id="myForm3">
+         <div>
+          <label for="inputField" id="myForm3-data"></label>
+          <input type="text" id="inputField3" name="inputField3">
+         </div>
+         <div>
+            <label for="inputField" id="myForm3-data_1">Description3_1</label>
+          <input type="text" id="inputField3_1" name="inputField3_1">
+         </div>
+          <button type="button" onclick="updateValue3()">Update</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
