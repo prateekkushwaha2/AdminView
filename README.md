@@ -8,5 +8,3 @@ Demo:-
 Admin :- https://admin-view-lyart.vercel.app/admin.html 
 CarShow :- https://admin-view-lyart.vercel.app
 
-
-Follow me on Instagram : https://www.instagram.com/prateek_maurya_2
